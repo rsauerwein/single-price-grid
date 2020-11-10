@@ -1,0 +1,48 @@
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --light-cyan: hsl(179, 73%, 64%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+.container {
+    margin: 20% 10% 10% 10%;
+}
+
+.join-community {
+    background-color: white;
+}
+
+.monthly-subscription {
+    background-color: var(--cyan);
+}
+
+.why-us {
+    background-color: var(--light-cyan);
+}
+
+.cyan-text {
+    color: var(--cyan);
+}
+
+.bright-yellow-text {
+    color: var(--bright-yellow);
+}
+
+.grayish-blue-text {
+    color: var(--grayish-blue)
+}
+
+ul {
+    list-style-type: none;
+}
