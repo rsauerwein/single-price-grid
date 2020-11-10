@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
 :root {
     --cyan: hsl(179, 62%, 43%);
     --light-cyan: hsl(179, 73%, 64%);
@@ -13,6 +15,7 @@
 
 body {
     background-color: var(--light-gray);
+    font-family: 'Karla', sans-serif;
 }
 
 .container {
@@ -25,6 +28,10 @@ body {
 
 .monthly-subscription {
     background-color: var(--cyan);
+}
+
+h2 {
+    font-weight: 700;
 }
 
 .why-us {
@@ -41,6 +48,10 @@ body {
 
 .grayish-blue-text {
     color: var(--grayish-blue)
+}
+
+.white-text {
+    color: white;
 }
 
 ul {
