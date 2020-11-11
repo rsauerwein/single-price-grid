@@ -69,18 +69,16 @@ li {
     padding-bottom: 2em;
 }
 
+/* || Join our community */
 .join-community {
     background-color: white;
     border-radius: 5px 5px 0px 0px;
 }
 
+
+/* || Monthly subscription */
 .monthly-subscription {
     background-color: var(--cyan);
-}
-
-.why-us {
-    background-color: var(--light-cyan);
-    border-radius: 0 0 5px 5px;
 }
 
 button {
@@ -89,4 +87,16 @@ button {
     height: 3em;
     border-radius: 5px;
     margin-top: 1.5em;
+}
+
+.price {
+    font-size: 2em;
+    margin-right: 0.2em;
+}
+
+/* || Why Us */
+
+.why-us {
+    background-color: var(--light-cyan);
+    border-radius: 0 0 5px 5px;
 }
