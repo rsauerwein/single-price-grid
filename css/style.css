@@ -1,3 +1,5 @@
+@import "resets/normalize.css";
+@import "resets/reset.local.css";
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
 :root {
@@ -8,18 +10,19 @@
     --grayish-blue: hsl(218, 22%, 67%);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     background-color: var(--light-gray);
     font-family: 'Karla', sans-serif;
+    font-size: 16px;
 }
 
 .container {
     margin: 20% 10% 10% 10%;
+}
+
+.container > div {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .join-community {
@@ -31,7 +34,10 @@ body {
 }
 
 h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: 700;
+    font-size: 16px;
 }
 
 .why-us {
@@ -56,4 +62,9 @@ h2 {
 
 ul {
     list-style-type: none;
+}
+
+button {
+    background-color: var(--bright-yellow);
+    color: white;
 }
