@@ -78,3 +78,4 @@ A massive thank you to our community sponsors!
 - https://medium.com/@elad/normalize-css-or-css-reset-9d75175c5d1e
 - http://nicolasgallagher.com/about-normalize-css/
 - https://www.freecodecamp.org/learn/
+- https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/CSS
