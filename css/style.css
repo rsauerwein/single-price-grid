@@ -60,7 +60,8 @@ li {
 }
 
 .grayish-blue-text {
-    color: var(--grayish-blue)
+    color: var(--grayish-blue);
+    font-size: 16px;
 }
 
 
@@ -76,8 +77,8 @@ li {
 }
 
 .container > div {
-    padding-left: 6.5%;
-    padding-right: 6.5%;
+    padding-left: 24px;
+    padding-right: 24px;
     padding-bottom: 24px;
 }
 
@@ -148,6 +149,11 @@ button {
     .container {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .container > div {
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .monthly-subscription {
