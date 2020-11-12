@@ -13,6 +13,10 @@
 
 /* || GENERAL STYLES */
 
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: var(--light-gray);
     font-family: 'Karla', sans-serif;
@@ -21,6 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -64,8 +69,7 @@ li {
 
 .container {
     width: 90%;
-    max-width: 800px;
-    margin-top: 20%;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
 }
