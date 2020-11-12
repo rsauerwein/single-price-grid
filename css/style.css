@@ -29,13 +29,13 @@ body {
 }
 
 h1 {
-    padding-top: 5%;
+    padding-top: 28px;
     font-size: 20px;
     font-weight: 700
 }
 
 h2 {
-    padding-top: 1.5em;
+    padding-top: 24px;
     padding-bottom: 1em;
     font-weight: 700;
     font-size: 18px;
@@ -56,10 +56,6 @@ li {
     color: var(--cyan);
 }
 
-.bright-yellow-text {
-    color: var(--bright-yellow);
-}
-
 .grayish-blue-text {
     color: var(--grayish-blue)
 }
@@ -75,9 +71,15 @@ li {
 }
 
 .container > div {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.subtitle {
+    color: var(--bright-yellow);
+    font-weight: 700;
+
 }
 
 /* || Join our community */
