@@ -77,6 +77,8 @@ li {
 }
 
 .subtitle {
+    padding-top: 24px;
+    padding-bottom: 16px;
     color: var(--bright-yellow);
     font-weight: 700;
 
