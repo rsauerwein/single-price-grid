@@ -113,6 +113,18 @@ button {
     border-radius: 0 0 5px 5px;
 }
 
+/* || Footer */
+
+.attribution {
+    color: black;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
 /* || Desktop version */
 @media (min-width: 768px) {
     .container {
