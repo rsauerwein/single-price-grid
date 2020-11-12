@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-    padding-top: 1.5em;
+    padding-top: 5%;
     font-size: 20px;
     font-weight: 700
 }
@@ -75,9 +75,9 @@ li {
 }
 
 .container > div {
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 2em;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
 
 /* || Join our community */
