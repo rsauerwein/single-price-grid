@@ -20,7 +20,7 @@ html, body {
 body {
     background-color: var(--light-gray);
     font-family: 'Karla', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -45,9 +45,12 @@ ul {
     list-style-type: none;
 }
 
-p, 
+p {
+    line-height: 26px;
+}
+
 li {
-    line-height: 1.5em;
+    line-height: 20px;
 }
 
 /* || UTILITIES */
@@ -82,6 +85,7 @@ li {
     color: var(--bright-yellow);
     font-weight: 700;
     font-size: 15px;
+    line-height: 20px;
 }
 
 /* || Join our community */
@@ -100,19 +104,25 @@ li {
 button {
     background-color: var(--bright-yellow);
     width: 100%;
-    height: 3em;
+    height: 48px;
     border-radius: 5px;
-    margin-top: 1.5em;
+    margin-top: 26px;
 }
 
 .price {
-    font-size: 2em;
-    margin-right: 0.2em;
+    font-size: 32px;
+    font-weight: 700;
+    margin-right: 11px;
 }
 
 .price-unit {
     mix-blend-mode: normal;
     opacity: 0.5;
+    font-size: 16px;
+}
+
+.price-subtitle {
+    font-size: 16px;
 }
 
 /* || Why Us */
