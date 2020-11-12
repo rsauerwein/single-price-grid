@@ -69,7 +69,7 @@ li {
 
 .container {
     width: 90%;
-    max-width: 600px;
+    max-width: 635px;
     display: flex;
     flex-direction: column;
 }
