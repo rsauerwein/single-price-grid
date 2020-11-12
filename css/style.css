@@ -68,7 +68,7 @@ li {
 /* || MAIN CONTENT */
 
 .container {
-    width: 90%;
+    width: 83%;
     max-width: 635px;
     display: flex;
     flex-direction: column;
