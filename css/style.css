@@ -13,11 +13,8 @@
 
 /* || GENERAL STYLES */
 
-html, body {
-    height: 100%;
-}
-
 body {
+    min-height: 100vh;
     background-color: var(--light-gray);
     font-family: 'Karla', sans-serif;
     font-size: 14px;
