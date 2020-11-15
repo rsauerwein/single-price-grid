@@ -71,6 +71,7 @@ li {
     flex-direction: column;
     background-color: white;
     border-radius: 5px;
+    margin-top: 24px;
 }
 
 .container > div {
@@ -147,6 +148,7 @@ button {
     .container {
         flex-direction: row;
         flex-wrap: wrap;
+        margin-top: 0;
     }
 
     .container > div {
