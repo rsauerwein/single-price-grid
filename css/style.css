@@ -73,6 +73,7 @@ li {
     border-radius: 5px;
     margin-top: 24px;
     box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+    overflow: hidden;
 }
 
 .container > div {
@@ -133,7 +134,6 @@ button:hover {
 
 .why-us {
     background-color: var(--light-cyan);
-    border-radius: 0 0 5px 5px;
 }
 
 /* || Footer */
@@ -163,11 +163,9 @@ button:hover {
 
     .monthly-subscription {
         width: 50%;
-        border-radius: 0 0 0 5px;
     }
 
     .why-us {
         width: 50%;
-        border-radius: 0 0 5px 0;
     }
 }
