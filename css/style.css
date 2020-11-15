@@ -109,6 +109,10 @@ button {
     margin-top: 26px;
 }
 
+button:hover {
+    background-color: hsl(71, 85%, 37%);
+}
+
 .price {
     font-size: 32px;
     font-weight: 700;
